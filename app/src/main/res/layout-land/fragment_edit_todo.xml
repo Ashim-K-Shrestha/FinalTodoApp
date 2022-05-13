@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--linear layout-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9BCB9"
+    android:orientation="vertical"
+    tools:context=".EditTodoFragment">
+
+    <!--scroll view for scrolling feature-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--linear layout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--image view for the logo-->
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="160dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/ic_baseline_check_circle_24" />
+
+            <!--card view for the activity details-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="10dp">
+
+                <!--scroll view for scrolling feature-->
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp">
+
+                    <!--linear layout for the form content-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <!--editText for the activity title-->
+                        <EditText
+                            android:id="@+id/edit_fragment_txt_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:background="#FFFFFF"
+                            android:backgroundTint="#CCCBCB"
+                            android:ems="10"
+                            android:hint="@string/edit_title"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp" />
+
+                        <!--editText for the activity description-->
+                        <EditText
+                            android:id="@+id/edit_fragment_txt_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:height="150dp"
+                            android:background="#CCCBCB"
+                            android:ems="10"
+                            android:hint="@string/edit_description"
+                            android:inputType="textMultiLine|textPersonName"
+                            android:lines="5"
+                            android:maxLines="5"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
+                            android:scrollbars="vertical" />
+
+                        <!--editText for the activity date-->
+                        <EditText
+                            android:id="@+id/edit_fragment_txt_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:background="#CCCBCB"
+                            android:ems="10"
+                            android:hint="@string/edit_date"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp" />
+
+                        <!--radio group view-->
+                        <RadioGroup
+                            android:id="@+id/edit_fragment_rg_priority"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:orientation="horizontal">
+
+                            <!--radio button for high activity type-->
+                            <RadioButton
+                                android:id="@+id/edit_fragment_rb_high"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@color/color_high"
+                                android:text="@string/edit_high" />
+
+                            <!--radio button for medium activity type-->
+                            <RadioButton
+                                android:id="@+id/edit_fragment_rb_medium"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@color/color_medium"
+                                android:text="@string/edit_medium" />
+
+                            <!--radio button for low activity type-->
+                            <RadioButton
+                                android:id="@+id/edit_fragment_rb_low"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@color/color_low"
+                                android:text="@string/edit_low" />
+                        </RadioGroup>
+
+                        <!--checkbox view-->
+                        <CheckBox
+                            android:id="@+id/edit_fragment_chk_complete"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:text="Keep Checked"
+                            android:textSize="16sp" />
+
+                        <!--linear layout for the save and cancel buttons-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <!--save button-->
+                            <Button
+                                android:id="@+id/edit_fragment_btn_save"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:layout_weight="1"
+                                android:text="@string/edit_save"
+                                android:textColor="#000000"
+                                android:textSize="16sp"
+                                app:backgroundTint="#F1E047" />
+
+                            <!--cancel button-->
+                            <Button
+                                android:id="@+id/edit_fragment_btn_cancel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:text="@string/cancel"
+                                android:textColor="#000000"
+                                android:textSize="16sp"
+                                app:backgroundTint="#F1E047" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

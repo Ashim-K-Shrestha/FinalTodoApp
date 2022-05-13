@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--frame layout for multiple components-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008175"
+    tools:context=".ProfileActivity">
+
+    <!--constraint layout-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B9BCB9">
+
+        <!--scroll view for the scrolling feature-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--linear layout-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!--image view for the user account image-->
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="204dp"
+                    android:layout_height="175dp"
+                    android:layout_gravity="center"
+                    android:foreground="@drawable/ic_account" />
+
+                <!--text view to display the logged in user-->
+                <TextView
+                    android:id="@+id/profile_activity_tv_name"
+                    android:layout_width="131dp"
+                    android:layout_height="21dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"/>
+
+                <!--card view for the edit form-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview"
+                    android:layout_width="322dp"
+                    android:layout_height="280dp"
+                    android:layout_gravity="center">
+
+                    <!--constraint layout for the form-->
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <!--form heading-->
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#DFE3E3"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="Set New Password"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <!--editText view for the old password-->
+                        <EditText
+                            android:id="@+id/profile_activity_tv_oldpass"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#FFFEFE"
+                            android:backgroundTint="#CCCBCB"
+                            android:ems="10"
+                            android:hint="Old Password"
+                            android:inputType="textPersonName|textPassword"
+                            android:padding="10dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/profile_activity_btn_submit"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/textView9"
+                            app:layout_constraintVertical_bias="0.3" />
+
+                        <!--editText view for the new password-->
+                        <EditText
+                            android:id="@+id/profile_activity_tv_newpass"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#FFFFFF"
+                            android:backgroundTint="#CCCBCB"
+                            android:ems="10"
+                            android:hint="New password"
+                            android:inputType="textPersonName|textPassword"
+                            android:padding="10dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/profile_activity_btn_submit"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/textView9"
+                            app:layout_constraintVertical_bias="0.627" />
+
+                        <!--button to save the changes-->
+                        <Button
+                            android:id="@+id/profile_activity_btn_submit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/submit"
+                            android:textColor="#000000"
+                            app:backgroundTint="#F1E047"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.825"
+                            app:layout_constraintStart_toStartOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <!--button to delete the user account-->
+                <Button
+                    android:id="@+id/profile_activity_btn_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/delete"
+                    android:textColor="#000"
+                    app:backgroundTint="#F1E047"
+                    app:icon="@drawable/ic_baseline_delete_24" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

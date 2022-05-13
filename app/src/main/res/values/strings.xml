@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_low">Low</string>
+    <string name="edit_save">Save</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_priority">Priority</string>
+    <string name="edit_high">High</string>
+    <string name="edit_medium">Medium</string>
+    <string name="edit_title">Activity title</string>
+    <string name="edit_description">Activity description</string>
+    <string name="edit_date">Activity date</string>
+    <string name="alert_cancel">Do you want to return to main screen?</string>
+    <string name="alert_delete">The user account will be deleted!</string>
+    <string name="name">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup">Register</string>
+    <string name="login">SIGN IN</string>
+    <string name="delete">DELETE ACCOUNT</string>
+    <string name="submit">SAVE CHANGES</string>
+    <string name="splash_msg">Never miss important things</string>
+    <string name="edit_password">Edit Password</string>
+    <string name="username_login_hint">Username</string>
+    <string name="password_login_hint">Password</string>
+    <string name="username_signup_hint">Username</string>
+    <string name="password_signup_hint">Password</string>
+    <string name="cp_signup_hint">Confirm Password</string>
+</resources>
