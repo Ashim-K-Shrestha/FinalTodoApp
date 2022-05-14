@@ -235,7 +235,7 @@ public class EditTodoFragment extends Fragment {
         } catch (ParseException ex) {
             ex.printStackTrace();
             // setting the error
-            txtDate.setError("Invalid date!");
+            txtDate.setError("The provided date was invalid.");
         }
         // fetching the priority of the activity from the radio buttons
         checkedPriority = todoImp.getCheckedRadioButtonId();
@@ -265,7 +265,7 @@ public class EditTodoFragment extends Fragment {
         if (todoTitle.getText().toString().trim().equals("") || todoDescription.getText().toString().trim().equals("")
                 || txtDate.getText().toString().trim().equals("") || checkedPriority == -1) {
             // displaying the error toast message
-            Toast.makeText(getContext(), "Fill all the text fields and select priority!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "Please provide all the details for the to do.", Toast.LENGTH_SHORT).show();
             // setting boolean value to true
             error = true;
         } else {

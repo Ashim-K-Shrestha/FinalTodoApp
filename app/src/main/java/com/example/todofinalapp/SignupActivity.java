@@ -59,20 +59,27 @@ public class SignupActivity extends AppCompatActivity {
                 // setting the password
                 eUser.setPassword(password.getText().toString());
 
+                // if the username field is null
+                if (name.getText().toString().trim().equals("")){
+                    // error boolean value set to true
+                    error = true;
+                    // displaying unsuccessful toast message
+                    Toast.makeText(SignupActivity.this, "Please provide the username.", Toast.LENGTH_SHORT).show();
+                }
                 // if the set passwords are null
                 if (password.getText().toString().trim().equals("") ||
                         confirmPassword.getText().toString().trim().equals("")) {
                     // error boolean value set to true
                     error = true;
                     // displaying unsuccessful toast message
-                    Toast.makeText(SignupActivity.this, "Password field shouldn't be empty!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignupActivity.this, "Please provide the password.", Toast.LENGTH_SHORT).show();
                 }
                 // if the password and confirm password do not match
                 if (!password.getText().toString().equals(confirmPassword.getText().toString())) {
                     // set error to true
                     error = true;
                     // setting the error message
-                    password.setError("Password must match confirm password!");
+                    password.setError("Password and password confirmation do not match.");
                 }
                 // validating for a unique username
                 for (int i = 0; i < userList.size(); i++) {
@@ -81,7 +88,7 @@ public class SignupActivity extends AppCompatActivity {
                         // displaying the username in the console
                         Log.d(TAG, userList.get(i).getName());
                         // displaying the error message
-                        name.setError("User name already exists!");
+                        name.setError("Username taken!");
                         // setting the error as true
                         error = true;
                         break;

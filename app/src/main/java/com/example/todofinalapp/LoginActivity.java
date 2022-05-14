@@ -1,5 +1,6 @@
 package com.example.todofinalapp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -26,6 +27,7 @@ public class LoginActivity extends AppCompatActivity {
     List<EUser> userList;
     // declaring a variable for the userViewModel
     private UserViewModel userViewModel;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,7 +65,7 @@ public class LoginActivity extends AppCompatActivity {
                         editor.putBoolean("authentication",true);
                         // fetching the username
                         editor.putInt("user_id", userList.get(i).getUser_id());
-                        // commiting back to the original preference
+                        // committing back to the original preference
                         editor.commit();
 
                     }
