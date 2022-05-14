@@ -47,7 +47,7 @@ is registered successfully, s/he can redirect to the login form page where they 
 ## Login Process
 
 **The login process comes after the registration process and the user will have to use the credentials that they used while
-signing up to the system. The form also has validation for the incorrect input details and empty fields. After successful login,
+signing up to the system. The form also has validation for the incorrect input details. After successful login,
 the users will be taken to the main page where they have features like adding a to do task, updating their profile detail, 
 deleting the to do and logging out of the system.**
 
@@ -67,6 +67,8 @@ deleting the to do and logging out of the system.**
 
 **The screen recording below shows the user successfully logging in the app. After being logged in, the user can add a to do by
 using the floating circular button present at the bottom-right corner of the page.**
+
+![Successful Login](ScreenRecordings/Cropped/SuccessfulLogin.gif)
 
 ---
 
