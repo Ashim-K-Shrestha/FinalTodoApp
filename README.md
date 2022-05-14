@@ -40,6 +40,8 @@ directly from the registration page using the 'sign in' button located below the
 **The screen recording presented below shows the successful process of registering a new user into the system. After a user
 is registered successfully, s/he can redirect to the login form page where they can use the same login details they provided.**
 
+![Successful Registration](ScreenRecordings/Cropped/SuccessfulRegistration.gif)
+
 ---
 
 ## Login Process
