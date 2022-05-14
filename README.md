@@ -84,9 +84,19 @@ before creating it. After filling the details, the users can hit the save button
 
 **The screenshot below shows the form for adding a new to do.**
 
+![Add Todo Form](SS/AddTODOForm.png)
+
+### Cancelling Todo creation
+
+**The screen recording below shows the process of cancelling the to do creation process.**
+
+![Cancelling Todo](ScreenRecordings/Cropped/CancellingTODO.gif)
+
 ### Adding Todo
 
 **The screen recording below shows the process of creating a new to do by filling all the to do details.**
+
+![Creating Todo](ScreenRecordings/Cropped/CreatingTODO.gif)
 
 ---
 
