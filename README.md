@@ -29,6 +29,8 @@ directly from the registration page using the 'sign in' button located below the
 
 *For duplicate username*
 
+![Empty fields](ScreenRecordings/Cropped/DuplicateUsernameR.gif)
+
 *For incorrect credentials*
 
 ### Registering New User
