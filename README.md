@@ -27,6 +27,15 @@ with appropriate screenshots and screen recordings.**
 
 ---
 
+## Starting the app
+
+**Starting the app will display a splash activity at the beginning with the app logo and name at the center. The splash activity
+is displayed for 3 seconds and the login page is shown where users can login.**
+
+![Splash](ScreenRecordings/Cropped/Splash.gif)
+
+---
+
 ## Registration Process
 
 **For the sign up process, a registration form needs to be filled. Users must provide a username and password for signing up and 
