@@ -147,6 +147,7 @@ public class MainActivity extends AppCompatActivity {
                 if (user_id != -1) {
                     // calling function to delete all the completed to do
                     todoViewModel.deleteAllCompleted(user_id, true);
+                    Toast.makeText(getApplicationContext(), "Completed todos deleted!", Toast.LENGTH_LONG).show();
                 } else {
                     // toast to display the failure message
                     Toast.makeText(getApplicationContext(), "Failed to delete!", Toast.LENGTH_LONG).show();

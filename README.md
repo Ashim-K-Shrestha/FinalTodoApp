@@ -109,6 +109,8 @@ can be used to update the information again. After updating, the user will be ta
 
 **The screen recording below shows the process of a to do being updated by re-filling the to do form.**
 
+![Updating Todo](ScreenRecordings/Cropped/UpdatingTODO.gif)
+
 ---
 
 ## Deleting a Todo
@@ -121,6 +123,8 @@ are completed or checked and another is to delete all the to do at once.**
 
 **The screen recording below shows the swiping method to delete a to do.**
 
+![Swipe Delete](ScreenRecordings/Cropped/SwipeDelete.gif)
+
 ### Deleting the Todo Using the toolbar Menu
 
 **The screen recordings below shows the to do being deleted using the menu from the toolbar.**
@@ -129,9 +133,13 @@ are completed or checked and another is to delete all the to do at once.**
 
 **The screen recording below shows the checked to dos being deleted.**
 
+![Deleting Checked](ScreenRecordings/Cropped/DeleteChecked.gif)
+
 *Deleting all to dos at once*
 
 **The screen recording below shows all the to dos being deleted.**
+
+![Deleting All](ScreenRecordings/Cropped/DeleteAll.gif)
 
 ---
 
