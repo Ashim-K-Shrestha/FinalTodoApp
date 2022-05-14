@@ -55,6 +55,8 @@ deleting the to do and logging out of the system.**
 
 **The screenshot below shows the UI for the login page.**
 
+![Login UI](SS/LoginUI.png)
+
 ### Form Validation
 
 **The screen recording below shows the validation feature assigned in the login form.**
