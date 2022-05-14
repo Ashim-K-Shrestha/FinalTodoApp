@@ -61,10 +61,12 @@ deleting the to do and logging out of the system.**
 
 **The screen recording below shows the validation feature assigned in the login form.**
 
+![Login Form Validation](ScreenRecordings/Cropped/LoginValidation.gif)
+
 ### Logging In
 
-**The screen recording below shows the user logging in the app. After being logged in, the user can add a to do by using the 
-floating circular button present at the bottom-right corner of the page.**
+**The screen recording below shows the user successfully logging in the app. After being logged in, the user can add a to do by
+using the floating circular button present at the bottom-right corner of the page.**
 
 ---
 
