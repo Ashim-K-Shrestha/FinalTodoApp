@@ -17,7 +17,7 @@ directly from the registration page using the 'sign in' button located below the
 
 **The screenshot below shows the user interface for the sign up page.**
 
-![Registration UI](RegistrationUI.png)
+![Registration UI](SS/RegistrationUI.png)
 
 ### Form Validation
 
