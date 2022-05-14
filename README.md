@@ -1,4 +1,9 @@
-# Andriod Final App
+# Android Final App
+
+**This readme file consists of the tasks covered for the final TODO app of Mobile Application Development module. The task provided 
+in this component was to create a simple todo application comprising several topics that were covered in this module. Hence, all 
+the requirements were fulfilled and a fully functioning TODO app was developed. The functions accumulated in the app are presented
+with appropriate screenshots and screen recordings.**
 
 ---
 
