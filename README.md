@@ -21,9 +21,11 @@ directly from the registration page using the 'sign in' button located below the
 
 ### Form Validation
 
-**The screen recording below shows the validation process involved in the form.**
+**The screen recordings below show the validation process involved in the form.**
 
 *For empty input fields*
+
+
 
 *For duplicate username*
 
