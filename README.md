@@ -5,6 +5,26 @@ in this component was to create a simple todo application comprising several top
 the requirements were fulfilled and a fully functioning TODO app was developed. The functions accumulated in the app are presented
 with appropriate screenshots and screen recordings.**
 
+<h1>Todo App features in brief</h1>
+<ul>
+	<li>Registration and login features for the users.</li>
+	<li>Feature to create a todo with different details about the todo.</li>
+	<li>Feature to edit the created todo for any update.</li>
+	<li>Displaying users specific todos.</li>
+	<li>Deleting a todo or group of todo either by swiping or by using the toolbar options.</li>
+	<li>Add your own todo with title, description, complete status and date.</li>
+	<li>User Profile update feature.</li>
+
+</ul>
+
+<h1>Additional features added in the application</h1>
+<ul>
+	<li>Validation in both the login and sign up forms.</li>
+	<li>Feature to mark a todo as completed from the main page.</li>
+	<li>Capacity of the app to support multiple accounts.</li>
+	<li>Profile update and delete features.</li>
+</ul>
+
 ---
 
 ## Registration Process
