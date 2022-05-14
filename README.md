@@ -17,6 +17,8 @@ directly from the registration page using the 'sign in' button located below the
 
 **The screenshot below shows the user interface for the sign up page.**
 
+![Registration UI](RegistrationUI.png)
+
 ### Form Validation
 
 **The screen recording below shows the validation process involved in the form.**
@@ -153,3 +155,9 @@ a dropdown menu that has the 'logout' option. The users can log out by clicking 
 the login page.**
 
 **The screen recording below shows the log out process in the app.**
+
+---
+
+## Landscape View for the App
+
+**The screen recordings below show the features of app being executed in landscape mode.**
