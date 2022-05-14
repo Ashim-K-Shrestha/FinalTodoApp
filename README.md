@@ -25,7 +25,7 @@ directly from the registration page using the 'sign in' button located below the
 
 *For empty input fields*
 
-![Empty fields](ScreenRecordings/EmptyFieldsReg.gif)
+![Empty fields](ScreenRecordings/cropped/EmptyFieldsRegistration.gif)
 
 *For duplicate username*
 
