@@ -33,6 +33,8 @@ directly from the registration page using the 'sign in' button located below the
 
 *For incorrect credentials*
 
+![Incorrect Credentials](ScreenRecordings/Cropped/IncorrectCredentialsR.gif)
+
 ### Registering New User
 
 **The screen recording presented below shows the successful process of registering a new user into the system. After a user
