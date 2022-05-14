@@ -205,3 +205,49 @@ the login page.**
 ## Landscape View for the App
 
 **The screen recordings below show the features of app being executed in landscape mode.**
+
+*Register*
+
+![Landscape Register](ScreenRecordings/Cropped/LandscapeRegister.gif)
+
+---
+
+*Login*
+
+![Landscape Login](ScreenRecordings/Cropped/LandscapeLogin.gif)
+
+---
+
+*Creating TODO*
+
+![Landscape Creating TODO](ScreenRecordings/Cropped/LandscapeCreate.gif)
+
+---
+
+*Updating TODO*
+
+![Landscape Updating TODO](ScreenRecordings/Cropped/LandscapeUpdate.gif)
+
+---
+
+*Deleting TODO*
+
+![Landscape Deleting TODO](ScreenRecordings/Cropped/LandscapeDelete.gif)
+
+---
+
+*User Profile Update*
+
+![Landscape Profile](ScreenRecordings/Cropped/LandscapeProfileU.gif)
+
+---
+
+*User Profile Delete*
+
+![Landscape Profile](ScreenRecordings/Cropped/LandscapeProfileD.gif)
+
+---
+
+*Logging Out*
+
+![Landscape Logout](ScreenRecordings/Cropped/LandscapeLogout.gif)
