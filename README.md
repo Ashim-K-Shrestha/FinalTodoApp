@@ -97,7 +97,7 @@ are completed or checked and another is to delete all the to do at once.**
 
 ### Deleting the Todo Using the toolbar Menu
 
-**The screen recordings below shows the to do being deleted using the menu from the toolbar. **
+**The screen recordings below shows the to do being deleted using the menu from the toolbar.**
 
 *Deleting the checked to dos*
 
