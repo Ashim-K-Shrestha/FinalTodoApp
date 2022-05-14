@@ -110,7 +110,7 @@ public class ProfileActivity extends AppCompatActivity {
                                     // if the user id matches
                                     if (eTodo.get(i).getUser_id() == user_id) {
                                         Log.d(TAG, "todo_id: " + eTodo.get(i).getUser_id() + " size of etodo" + eTodo.size() + "******");
-                                        // deleting the to do from the list
+                                        // deleting the user from the system
                                         todoViewModel.deleteById(eTodo.get(i));
                                     }
                                 }

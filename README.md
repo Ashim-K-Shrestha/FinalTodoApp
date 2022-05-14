@@ -154,13 +154,19 @@ shown for incorrect old password.**
 
 **The screenshot below shows the user profile page.**
 
+![User Profile](SS/UserProfile.png)
+
 ### Updating the Password 
 
 **The screen recording below shows the profile update process being conducted.**
 
+![Updating Password](ScreenRecordings/Cropped/UpdatePassword.gif)
+
 ### Old password validation
 
 **The screen recording below shows the old password field being validated.**
+
+![Password Validation](ScreenRecordings/Cropped/PasswordValidation.gif)
 
 ---
 
@@ -174,9 +180,13 @@ alert dialog box will e displayed that will ask for the delete confirmation.**
 
 **The screenshot below shows the alert dialog box after the 'Delete Account' button is pressed.**
 
+![Delete Alert](SS/DeleteAlert.png)
+
 ### Deleting the User Account
 
 **The screen recording below shows the process of deleting the user account permanently from the system.**
+
+![Delete Account](ScreenRecordings/Cropped/DeleteAccount.gif)
 
 ---
 
@@ -187,6 +197,8 @@ a dropdown menu that has the 'logout' option. The users can log out by clicking 
 the login page.**
 
 **The screen recording below shows the log out process in the app.**
+
+![Log Out](ScreenRecordings/Cropped/Logout.gif)
 
 ---
 
